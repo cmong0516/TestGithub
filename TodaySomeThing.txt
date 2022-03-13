@@ -36,3 +36,5 @@
 . 변수 접근제어자 private 으로 수정. 
 . getter, setter 추가.
 . Triangle, Rectangle, Resize 수정.
+
+-18:16 드디어 완료.... 힘들다...
