@@ -59,5 +59,9 @@
 
 - 터미널로 새로운 브랜치 mong0516 만들어서 파일수정 ~ 머지까지 !! mong0516
 
+<<<<<<< HEAD
 - 새로운 Mong0516 브랜치 삭제 !! cmong0516 으로 바꾸기!!          -cmong0516
 Retry
+=======
+- git pull add commit push ~ juaekoo
+>>>>>>> 77e1da75dfd0bfe7411c7ea781d7bac15701e43e
