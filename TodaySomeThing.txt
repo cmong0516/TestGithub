@@ -62,3 +62,8 @@
 - git pull add commit push ~ juaekoo
 
 -열려라 참깨!!
+
+- git checkout main
+git metge {내 브랜치 이름}
+git checkout {내 브랜치 이름}
+git status      cmong0516
