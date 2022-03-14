@@ -60,3 +60,5 @@
 - 터미널로 새로운 브랜치 mong0516 만들어서 파일수정 ~ 머지까지 !! mong0516
 
 - git pull add commit push ~ juaekoo
+
+-열려라 참깨!!
