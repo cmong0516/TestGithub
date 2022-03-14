@@ -69,3 +69,5 @@ git checkout {내 브랜치 이름}
 git status      cmong0516
 
 - 충돌났을 때 강제로 pull / juaekoo
+
+과제 너무 어렵습니다.
