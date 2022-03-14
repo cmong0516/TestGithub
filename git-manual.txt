@@ -1,0 +1,44 @@
+// cmong 
+터미널로 브랜치 새로 만들어서 올리는 방법 !!
+1. git pull 해올 폴더로 이동 . (pwd , cd , ls 등을 사용해본다 !)
+2. git pull https://github.com/cmong0516/TestGithub.git
+3. git branch {새로운브랜치이름}                 {새로운브랜치이름} 여기에 원하는 이름 넣기
+4. git checkout {위에서 입력한 이름}
+5. git branch                    를 입력하고 *의 위치가 위에서 입력한 이름에 있는지 확인.
+6. ls 를 입력해서 TodaySomeThing.txt 가 있는지 확인
+7. open TodaySomeThing.txt      입력.
+8. 내용 수정.
+9. git add . 
+
+// pooh 정리중 -> 명령어만 사용해서! 신뢰성은...
+<ch1. 개발 공간 만들기>
+1. 복제해올 공간을 만든다. (ex. c://test)
+2. 해당 경로 - 우클릭 - git bash here - 실행
+3. 복제하기
+   $ git clone (주소) [폴더이름] 
+4. test폴더 확인하면 그대로 복제된 것을 확인할 수 있음
+5. 편집기에서 확인하기
+    $ code or 직접 vsc 켜기
+6. 브랜치 만들기
+    $ git checkout -b 브랜치명 //만듬과 동시에 이동
+    $ git branch 브랜치명 //브랜치명 생성
+    $ git switch 브랜치명 //브랜치 이동
+7. 개발하기
+
+<ch2. 푸시하기> --> 자신의 브랜치에서 진행
+1. 개발한 내용 중 올릴거 거르기
+    $ git add . //모든 파일 올리기
+    $ git add 파일명 //파일명 올리기
+2. 커밋하기
+    % git commit -m "메시지"
+3. 푸시하기
+    % git push origin 브랜치명 //main에 푸시하면...🤯 자신의 브랜치에 하자
+4. 깃허브 사이트 확인하기
+    pull request 해주기
+5. main에서 승락하면 끝!
+
+<ch3. pull하기>
+1. 메인 브랜치에서 소스가져오기
+    % git pull origin main //가져오기전에 꼭 커밋하기!
+2. 내 브랜치에 메인 브랜치 가져오기
+    % git merge main //자신의 브랜치에서 실행하기!
