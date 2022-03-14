@@ -33,6 +33,8 @@
     % git commit -m "메시지"
 3. 푸시하기
     % git push origin 브랜치명 //main에 푸시하면...🤯 자신의 브랜치에 하자
+    //브랜치 목록
+    % git branch
 4. 깃허브 사이트 확인하기
     pull request 해주기
 5. main에서 승락하면 끝!
@@ -42,3 +44,8 @@
     % git pull origin main //가져오기전에 꼭 커밋하기!
 2. 내 브랜치에 메인 브랜치 가져오기
     % git merge main //자신의 브랜치에서 실행하기!
+
+Q. pull 할 것이 있었는데 push하면??
+A. pull을 먼저 한 후 push하면 된다.
+1) merge 방식: 브랜치 병합 방식
+2) rebase 방식: 브랜치를 살려 main에 붙인다.
