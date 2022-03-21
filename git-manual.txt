@@ -30,20 +30,30 @@
     $ git add . //모든 파일 올리기
     $ git add 파일명 //파일명 올리기
 2. 커밋하기
-    % git commit -m "메시지"
+    $ git commit -m "메시지"
 3. 푸시하기
-    % git push origin 브랜치명 //main에 푸시하면...🤯 자신의 브랜치에 하자
+    $ git push origin 브랜치명 //main에 푸시하면...🤯 자신의 브랜치에 하자
     //브랜치 목록
-    % git branch
+    $ git branch
 4. 깃허브 사이트 확인하기
     pull request 해주기
 5. main에서 승락하면 끝!
 
 <ch3. pull하기>
 1. 메인 브랜치에서 소스가져오기
-    % git pull origin main //가져오기전에 꼭 커밋하기!
+    $ git pull origin main //가져오기전에 꼭 커밋하기!
 2. 내 브랜치에 메인 브랜치 가져오기
-    % git merge main //자신의 브랜치에서 실행하기!
+    $ git merge main //자신의 브랜치에서 실행하기!
+
+< 충돌 해결하기>
+1. 당장 충돌 해결이 어려운 경우 -> merge 중단
+    $ git merge --abort
+2. 해결이 가능한 경우
+#충돌 부분 수정 후
+    $ git add .
+#병합 커밋 메시지 알아서 적어줌
+    git commit
+vim창에서 :wq(저장 후 닫기)
 
 Q. pull 할 것이 있었는데 push하면??
 A. pull을 먼저 한 후 push하면 된다.
