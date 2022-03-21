@@ -1,0 +1,24 @@
+까먹어서 기록하는 Window 단축키!!
+
+*setting - keymap에서 단축키 확인 가능
+
+1. setting 열기
+ctrl+alt+s
+
+2. 파일 만들기
+ctrl+alt+ins
+
+3. 생성자, 게터 세터 만들기
+alt+ins
+
+4. 빨간줄(에러) 잡기
+ctrl+1
+
+5. 최근에 연 파일 찾기 -> 최근순으로 파일 목록보여줌
+ctrl+e
+
+6. 변수 생성 -> 김영한님 강의에 많이 나오는 단축키
+ctrl+alt+v
+ex) new Repository(); --> Repository repo = new Repository();
+
+(수정일:2022.03.21)
