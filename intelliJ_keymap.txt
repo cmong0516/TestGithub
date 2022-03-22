@@ -27,8 +27,10 @@ ctrl+shift+enter
 8. extract method
 alt+shift+m
 
-9. System.out.println
-sout 기본 println
-soutm 가까운거 출력해주는거같아요
-soutv 골라서 출력가능
+9. 함수 단축키
+    1) sout 기본 println
+    2) soutm 가까운거 출력해주는거같아요 - 해당 메서드 명 출력
+    3) soutv 골라서 출력가능 - 변수명 출력
+    4) iter - 자동 (향상된)포문 (리스트나 배열이 있을 시에만)
+
 (수정일:2022.03.22)
