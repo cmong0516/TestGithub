@@ -21,4 +21,10 @@ ctrl+e
 ctrl+alt+v
 ex) new Repository(); --> Repository repo = new Repository();
 
-(수정일:2022.03.21)
+7. ctrl+space(코드힌트)사용 시 끝에 세미콜론까지 붙이기
+ctrl+shift+enter
+
+8. extract method
+alt+shift+m
+
+(수정일:2022.03.22)
