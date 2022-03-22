@@ -27,4 +27,8 @@ ctrl+shift+enter
 8. extract method
 alt+shift+m
 
+9. System.out.println
+sout 기본 println
+soutm 가까운거 출력해주는거같아요
+soutv 골라서 출력가능
 (수정일:2022.03.22)
