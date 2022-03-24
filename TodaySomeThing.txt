@@ -114,3 +114,7 @@ git status      cmong0516
 과제 1 성공.... -->  
        어찌저찌 성공..(ajax안함) -pooh
 과제 2 .......            -cmong0516
+
+2022년 3월 24일
+
+Spring MVC 시작!               -cmong0516
