@@ -118,3 +118,9 @@ git status      cmong0516
 2022년 3월 24일
 
 Spring MVC 시작!               -cmong0516
+
+2022년 3월 25일
+
+Spring MVC 시작전 개념짚고 넘어가기 하느라 이제 진짜 시작!!
+-cmong0516
+
